@@ -3,6 +3,14 @@ body, html {
     position: relative;
 }
 
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f1f2f3 url('loader.gif') no-repeat center;
+    z-index: 20;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -170,21 +178,21 @@ nav ul li a:hover {
     opacity: 0;
 }
 
-.btn-top-1{
+.btn-top-1 {
     position: relative;
     top: 60vh;
 }
 
-.btn-top-btn{
+.btn-top-btn {
     margin: 10px;
 }
 
-.btn-custom-dark{
+.btn-custom-dark {
     background-color: black;
     color: white;
 }
 
-.btn-custom-dark:hover{
+.btn-custom-dark:hover {
     background-color: #2d2d2d;
     color: white;
 }
@@ -238,7 +246,6 @@ nav ul li a:hover {
 }
 
 
-
 .main-content-body-1 {
     text-align: left;
     margin: 50px 0;
@@ -267,7 +274,7 @@ nav ul li a:hover {
     transition: background-color 1s;
 }
 
-.main-body-card-1:hover{
+.main-body-card-1:hover {
     background-color: #003166;
 }
 
@@ -392,9 +399,8 @@ nav ul li a:hover {
 }
 
 
-
-.main-part-2-2-col-2:hover{
-    background-color:white;
+.main-part-2-2-col-2:hover {
+    background-color: white;
     color: black;
 }
 
@@ -435,7 +441,7 @@ nav ul li a:hover {
     transition: background-color 1s;
 }
 
-.main-end-col-1:hover{
+.main-end-col-1:hover {
     background-color: #003166;
 }
 
@@ -443,33 +449,33 @@ nav ul li a:hover {
     padding: 40px 20px;
 }
 
-.main-end-col-3{
+.main-end-col-3 {
     padding: 40px 20px;
     text-align: center;
 }
 
-.finiqlogo{
+.finiqlogo {
     margin: 30px auto;
 }
 
-footer{
+footer {
     margin: 40px auto 0;
     padding: 20px;
     background-color: black;
     color: white;
 }
 
-.foot-1{
+.foot-1 {
     text-align: left;
 }
 
-.link1{
+.link1 {
     color: white;
     margin: 10px;
     transition: color 1s;
 }
 
-.link1:hover{
+.link1:hover {
     color: #00c0d6;
     text-decoration: none;
 }
