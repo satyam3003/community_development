@@ -1,0 +1,405 @@
+body, html {
+    overflow-x: hidden;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+div.main {
+    background-color: #f2f2f3;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+nav {
+    background: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 1px 5px #aaaaaa;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 58px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 66px;
+    margin: 0 5px;
+
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
+
+    /* background-color:#0082e6 ; */
+    /* text-transform: uppercase; */
+}
+
+nav ul li a:hover {
+    background: #1b9bff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 64px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    text-decoration: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        top: 64px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        background: none;
+        color: #1800f5;
+        text-decoration: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+.maincontainer {
+    padding-top: 75px;
+}
+
+/* carousel */
+#slider {
+    width: 100%;
+}
+
+#slider a:hover {
+    color: none !important;
+}
+
+@font-face {
+    font-family: 'elesa';
+    src: url(fonts/elesa.ttf);
+}
+
+
+/*web-design*/
+
+.ml4 {
+    position: relative;
+    font-weight: 700;
+    font-size: 4.5em;
+
+}
+
+.ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 35vh;
+    right: 0;
+    opacity: 0;
+}
+
+.text-animation-head {
+    color: #ffffff;
+    margin: 0 50px;
+}
+
+.event-name {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 35vh;
+    right: 0;
+    font-weight: 800;
+}
+
+@media (max-width: 600px) {
+    .event-name {
+        top: 28vh;
+    }
+
+    .ml4 .letters {
+        top: 45vh;
+    }
+}
+
+.maincontainer {
+    height: 95vh;
+    background-image: url("images/top-back-2.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.main-content-body-1 {
+    text-align: left;
+    margin: 50px 0;
+}
+
+.main-body-images {
+    width: 100%;
+}
+
+.main-body-text-1 {
+    line-height: 2;
+}
+
+.hr-mainbody {
+    width: 50%;
+    border: none;
+    height: 4px;
+    background-color: #00c0d6;
+}
+
+.main-body-card-1 {
+    background-color: #00cadb;
+    color: white;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.card-text {
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+.main-card-back {
+    background-color: #f3f3f3;
+    color: #000000;
+    text-align: left;
+}
+
+.main-body-card-2 {
+    padding: 50px 20px;
+}
+
+.card-hr-1 {
+    height: 3px;
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+}
+
+.card-hr-2 {
+    height: 3px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 50%;
+}
+
+.hr-in-body {
+    margin: 45px 0 45px 55%;
+    width: 45%;
+    height: 7px;
+    background-color: #00cadb;
+}
+
+.card-head {
+    font-weight: 800;
+}
+
+
+.main-body-part-2 {
+    text-align: left;
+}
+
+.main-body-part-2-text {
+    padding: 0 40px;
+}
+
+.hr-mainbody-part2 {
+    width: 30%;
+    border: none;
+    height: 4px;
+    background-color: #00c0d6;
+}
+
+@media (max-width: 768px) {
+    .main-body-part-2-text {
+        padding: 40px 20px;
+    }
+}
+
+.domain-btn {
+    margin: 3px;
+}
+
+.btn-custom {
+    background-color: #00c0d6;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-custom:hover {
+    background-color: #049ec8;
+    color: white;
+    font-weight: 600;
+}
+
+.img-gal {
+    margin: 40px auto;
+}
+
+.main-part-2-2-row {
+    background-color: #343434;
+    color: white;
+}
+
+.main-part-2-2-col-1 {
+    background-color: #00cadb;
+    color: white;
+    padding: 50px 8% 50px 12%;
+    text-align: left;
+}
+
+@media (max-width: 1180px) {
+    .main-part-2-2-col-1 {
+        padding: 50px 4% 50px 6%;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-part-2-2-col-1 {
+        padding: 50px 2% 50px 3%;
+    }
+}
+
+.main-part2-2-2 {
+    text-align: left;
+}
+
+.main-part-2-2-col-2 {
+    text-align: right;
+    padding: 30px;
+    border: 5px solid white;
+    width: 500px;
+    position: relative;
+    right: 50px;
+}
+
+@media (max-width: 980px) {
+    .main-part-2-2-col-2 {
+        width: 400px;
+    }
+}
+
+@media (max-width: 769px) {
+    .main-part-2-2-col-2 {
+        width: 80%;
+        text-align: left;
+        margin: 30px;
+        position: static;
+    }
+}
+
+#registration {
+    height: 80vh;
+    padding: 10vh;
+}
+
+.main-end {
+    margin: 40px auto;
+}
+
+.main-end-row {
+    background-color: #f3f3f3;
+    color: black;
+    text-align: left;
+}
+
+.main-end-col-1 {
+    padding: 40px 20px;
+    background-color: #00c0d6;
+    color: white;
+}
+
+.main-end-col-2 {
+    padding: 40px 20px;
+}
+
+footer{
+    margin: 40px auto 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.foot-1{
+    text-align: left;
+}
+
+.link1{
+    text-decoration: none;
+    color: white;
+}
