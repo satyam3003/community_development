@@ -27,6 +27,7 @@ nav {
     position: fixed;
     z-index: 1;
     box-shadow: 0px 1px 5px #aaaaaa;
+    text-align: left;
 }
 
 label.logo {
@@ -169,6 +170,25 @@ nav ul li a:hover {
     opacity: 0;
 }
 
+.btn-top-1{
+    position: relative;
+    top: 60vh;
+}
+
+.btn-top-btn{
+    margin: 10px;
+}
+
+.btn-custom-dark{
+    background-color: black;
+    color: white;
+}
+
+.btn-custom-dark:hover{
+    background-color: #2d2d2d;
+    color: white;
+}
+
 .text-animation-head {
     color: #ffffff;
     margin: 0 50px;
@@ -194,12 +214,29 @@ nav ul li a:hover {
 }
 
 .maincontainer {
-    height: 95vh;
+    height: 100vh;
     background-image: url("images/top-back-2.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+.panel-body {
+    overflow: hidden;
+}
+
+.panel-body img {
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 400ms ease-out;
+
+}
+
+.panel-body img:hover {
+    transform: scale(1.25);
+}
+
 
 
 .main-content-body-1 {
@@ -227,6 +264,11 @@ nav ul li a:hover {
     color: white;
     padding: 50px 20px;
     text-align: left;
+    transition: background-color 1s;
+}
+
+.main-body-card-1:hover{
+    background-color: #003166;
 }
 
 .card-text {
@@ -346,6 +388,14 @@ nav ul li a:hover {
     width: 500px;
     position: relative;
     right: 50px;
+    transition: color 1s, background-color 1s;
+}
+
+
+
+.main-part-2-2-col-2:hover{
+    background-color:white;
+    color: black;
 }
 
 @media (max-width: 980px) {
@@ -382,10 +432,24 @@ nav ul li a:hover {
     padding: 40px 20px;
     background-color: #00c0d6;
     color: white;
+    transition: background-color 1s;
+}
+
+.main-end-col-1:hover{
+    background-color: #003166;
 }
 
 .main-end-col-2 {
     padding: 40px 20px;
+}
+
+.main-end-col-3{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.finiqlogo{
+    margin: 30px auto;
 }
 
 footer{
@@ -400,6 +464,12 @@ footer{
 }
 
 .link1{
-    text-decoration: none;
     color: white;
+    margin: 10px;
+    transition: color 1s;
+}
+
+.link1:hover{
+    color: #00c0d6;
+    text-decoration: none;
 }
