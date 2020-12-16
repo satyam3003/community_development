@@ -640,3 +640,7 @@ footer {
     margin: 50px auto;
     background-color: #f2f2f3;
 }
+
+.title-tag{
+    font-weight: 700;
+}
