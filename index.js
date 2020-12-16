@@ -50,7 +50,6 @@ anime.timeline({loop: true})
     delay: 1000
 });
 
-
 var preloader = document.getElementById('loading');
 
 function loader() {

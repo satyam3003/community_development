@@ -15,11 +15,8 @@
     <title>ELESA</title>
 </head>
 
-<body>
-
-<!--loader-->
 <body class="bodyy" onload="loader()">
-
+<!--loader-->
 <div id="loading"></div>
 
 <!-- navbar -->
@@ -29,17 +26,17 @@
         <i class="fas fa-bars"></i>
     </label>
     <label class="logo">
-        <img src="ELESA.svg" style="width: 140px;">
+        <img src="images/elesalogo.png" alt="" width="40px">&nbsp; <img src="ELESA.svg" style="width: 140px;">
     </label>
     <ul>
         <li>
-            <a href="">HOME</a>
+            <a href="http://elesa.co.in/">HOME</a>
         </li>
         <li>
-            <a href="">About</a>
+            <a href="http://elesa.co.in/about%20us.html">About</a>
         </li>
         <li>
-            <a href="">Contacts</a>
+            <a href="#foot">Contacts</a>
         </li>
     </ul>
 </nav>
@@ -59,7 +56,9 @@
 
         <div class="btn-top-1">
             <button class="btn btn-lg btn-custom-dark btn-top-btn">Watch Promo</button>
-            <button class="btn btn-lg btn-primary btn-top-btn">Register Now!</button>
+            <a href="#registration">
+                <button class="btn btn-lg btn-primary btn-top-btn">Register Now!</button>
+            </a>
         </div>
     </div>
 </section>
@@ -79,8 +78,12 @@
                     only.All updates will be given here!.
                 </p>
                 <a href="">
-                    <button class="btn btn-custom">Download Brochure</button>
+                    <a target="_blank"
+                       href="https://drive.google.com/file/d/1PjY8gBfovc9EDH4DyUmfeYfMkqYLLxSX/view?usp=sharing">
+                        <button class="btn btn-custom just-margin">Download Brochure</button>
+                    </a>
                 </a>
+                <br>
             </div>
             <div class="col-12 col-md-6">
                 <div class="panel-body"><img class="main-body-images" src="images/img-5.jpg" alt=""></div>
@@ -122,7 +125,9 @@
                         Participants can register through the link provided below. Further updates regarding the
                         competition will be available Here!.
                     </p>
-                    <button class="btn btn-dark">Register Now</button>
+                    <a href="#registration">
+                        <button class="btn btn-dark">Register Now</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -184,33 +189,71 @@
             <div data-aos="zoom-in" class="container">
                 <h2>PROBLEM STATEMENT</h2>
                 <hr class="card-hr-1">
-                <p>It is duty of each and every engineer to offer their efforts towards underserved communities. Such
-                    efforts raise important questions. Which kind of help is required by community? How do engineers
-                    listen to a community? If invited, how do engineers work with a community? <br><br>
-                    So to find optimised solutions for day to day life problems students are required to propose an idea
-                    for Community Development Projects from their perspective for this contest. Students should provide
-                    an appropriate title for their project. They should list out all the problems that they plan to
-                    solve using this project. They are supposed to explain roughly how the project will work, using
-                    appropriate block diagrams/use case diagrams. They can choose the topic from following domains.</p>
+                <p>The competition aims to find an optimal and innovative engineering solution for the day to day
+                    problems faced by underserved communities and to enhance critical thinking among
+                    students. <br><br>It is an idea proposal event for betterment of community. Participants have to
+                    register on website. All updates will be
+                    provided on website only.<br><br>All proposals will be accepted in E-formats only.
+                    Each participant will be awarded with E-certificate.
+                </p>
             </div>
         </div>
         <div class="col-12 col-md-6 main-part2-2-2">
             <div class="main-part-2-2-col-2">
                 <h3>Are you Ready for the Challenge?</h3>
                 <h5>Win Exciting Prizes!</h5>
-                <h5>1st Prize 10,000<br>2nd Prize 6,000 <br>3rd Prize 4,000 </h5>
+                <h5>1st Prize 10,000/- INR<br>2nd Prize 6,000/- INR <br>3rd Prize 4,000/- INR </h5>
             </div>
         </div>
     </div>
 </section>
 
+<div data-aos="fade-left" data-aos-duration="1000" style="text-align: right">
+    <hr class="hr-in-body-left">
+</div>
 <!--Registration form here-->
 
-<section id="registration">
+<section data-aos="fade-up" data-aos-duration="1000" id="registration">
     <h1>REGISTER NOW!</h1>
-    <p>(registration form will be here)</p>
+    <div class="instructions">
+        <p>The registration fees for this event is <b>100/- INR</b> Per Team Only! <br>
+            STEPS to register: <br> STEP 1: Pay the fees Using The UPI Code or Mobile No Given Below <br> STEP 2: Click
+            on <b>"REGISTER"</b> after Completing the payment.</p>
+    </div>
+    <div class="step-1">
+        <h2>STEP 1: </h2>
+        <h3>Scan the QR Code To Register or Pay on the Number Given Below</h3>
+        <h5>(The fees for the event is 100/- INR)</h5>
+    </div>
+    <h5><b>PLEASE MAKE SURE YOU COPY THE TRANSACTION ID OF YOUR PAYMENT</b></h5>
+    <div class="container">
+        <div class="row align-items-center register-col1">
+            <div class="col-12 col-md-6 register-col1-1">
+                <h4>Scan the QrCode To pay!</h4>
+                <img src="images/qrcode.jpg" alt="" width="60%">
+            </div>
+            <div class="col-12 col-md-6 register-col2">
+                <h4>You can use the number given below to Pay the fees using Google Pay or PhonePe</h4>
+                <button class="btn btn-registration"> 7875820114</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="step-2">
+        <h2>STEP 2: </h2>
+        <h4>Click on the Register Button given below After completing the Fees Payment!</h4>
+        <div class="wrap">
+            <a href="http://elesa.co.in/event/register">
+                <button class="button-r">Register</button>
+            </a>
+        </div>
+    </div>
 </section>
 
+
+<div data-aos="fade-right" data-aos-duration="1000" style="text-align: right">
+    <hr class="hr-in-body">
+</div>
 <!--Registration form End-->
 
 <section data-aos="fade-left" data-aos-duration="1000" class="main-end">
@@ -219,40 +262,97 @@
             <div class="col-12 col-md-6 main-end-col-1">
                 <h2>Important Dates</h2>
                 <hr class="card-hr-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium cumque dignissimos
-                    error, hic iste iure laborum modi nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                    aperiam blanditiis consectetur consequatur dignissimos dolores ducimus enim facere id illum iusto
-                    minima nisi, odio officiis, rem sequi ullam unde velit!</p>
+                <table class="table-dates table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Event</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Registration</td>
+                        <td>16-12-2020 to 16-01-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Project Proposal</td>
+                        <td>02-02-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Guideline for Correction</td>
+                        <td>14-03-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Final Presentation</td>
+                        <td>21-03-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Prize Declaration</td>
+                        <td>25-03-2021</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="col-12 col-md-6 main-end-col-2">
                 <h2>Evaluation Process</h2>
                 <hr class="card-hr-2">
-                <p>The project will be evaluated by faculty members and appropriate changes will be suggested by them.
-                    Then students are supposed to make necessary changes in their project before final submission.</p>
+                <p>After The Project Proposal, The project will be evaluated by faculty members and appropriate changes
+                    will be suggested by them in 'Guideline for Correction' period.
+                    Then students are supposed to make necessary changes in their project before final submission.
+                    <br><br>
+                    Faculty members from all branches will be evaluating depending on the domain and Specifications of
+                    The projects. </p>
             </div>
         </div>
     </div>
 </section>
+
+<div data-aos="fade-left" data-aos-duration="1000" style="text-align: right">
+    <hr class="hr-in-body-left">
+</div>
+
+<section>
+    <div class="container">
+        <div data-aos="fade-up" data-aos-duration="1000" class="youtube-main">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 youtube-col-1">
+                    <h2>Check out Our Promo Video!!!</h2>
+                </div>
+                <div class="col-12 col-md-6 youtube-col-2">
+                    <iframe class="youtube" src="https://www.youtube.com/embed/jlW0dDaIDyQ" frameborder="4px"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <div data-aos="fade-up" data-aos-duration="1000" class="main-end-col-3">
     <h2>Sponsored by!</h2>
     <img class="finiqlogo" src="images/Logo_FinIq.png" alt="">
 </div>
 
-<footer>
+<div data-aos="fade-up" data-aos-duration="1000" class="main-end-col-3">
+    <h3>The competition is in coordination with TPO Walchand College of Engineering. <br><br>
+        Special thanks to Prof Sanjay Dhaigude</h3>
+</div>
+
+<footer id="foot">
     <div class="container">
         <div class="row align-items-start">
             <div class="col-12 col-md-4 foot-1">
                 <h2>Contact Us!</h2>
                 <br>
-                <h5>Miss. Dhanshri Patil</h5>
+                <h5>Miss. Dhanashri Patil</h5>
                 <p>Joint Event Director <br>
                     <a class="link1"
                        href="tel: +919370119099"> +91 9370119099
                     </a></p>
 
-                <h5>Mr. Shreyas Thube</h5>
+                <h5>Mr. Shreyash Thube</h5>
                 <p>Joint Event Director <br>
                     <a class="link1"
                        href="tel: +918237816085"> +91 8237816085
@@ -262,8 +362,10 @@
                 <h2>Important Links!</h2>
                 <br>
                 <p>
-                    <a class="link1" href="#"> Registration Form</a> <br>
-                    <a class="link1" href="#"> Brochure</a> <br>
+                    <a class="link1" href="#registration"> Registration Form</a> <br>
+                    <a class="link1"
+                       href="https://drive.google.com/file/d/1PjY8gBfovc9EDH4DyUmfeYfMkqYLLxSX/view?usp=sharing">
+                        Brochure</a> <br>
                     <a class="link1" href="#"> Promo Video</a> <br>
                     <a class="link1" href="#"> Poster</a>
                 </p>
@@ -276,6 +378,11 @@
                     <a class="link1" href="#"><i class="fab fa-linkedin fa-3x"></i></a>
                     <a class="link1" href="#"><i class="fab fa-youtube fa-3x"></i></a>
                 </p>
+                <br>
+                <h2>Support/Queries</h2>
+                <h6>Mail us at:</h6>
+                <p><a class="link1" href="mailto: walchand.elesa@gmail.com">walchand.elesa@gmail.com</a>
+                </p>
             </div>
         </div>
     </div>
@@ -283,8 +390,6 @@
         Designed by ELESA ED Team. ©All Rights Reserved.
     </div>
 </footer>
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -297,5 +402,6 @@
 <script src="aos.js"></script>
 <script type="text/javascript">AOS.init();</script>
 <script src="index.js"></script>
+
 </body>
 </html>
